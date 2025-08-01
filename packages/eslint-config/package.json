@@ -1,0 +1,17 @@
+{
+  "name": "@uraues/eslint-config",
+  "version": "1.0.0",
+  "files": [
+    "index.mjs"
+  ],
+  "exports": {
+    ".": "./index.mjs"
+  },
+  "dependencies": {
+    "eslint-plugin-simple-import-sort": "^12.1.1",
+    "neostandard": "^0.12.2"
+  },
+  "peerDependencies": {
+    "eslint": "^9.32.0"
+  }
+}
